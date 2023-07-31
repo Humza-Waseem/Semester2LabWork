@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D20D5A6D-98EB-4570-B5F1-CAF780515288}</ProjectGuid>
+    <ProjectGuid>{98829435-B000-4F89-90C2-020D7843D2EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ConsoleApp1</RootNamespace>
     <AssemblyName>ConsoleApp1</AssemblyName>
@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bank.cs" />
-    <Compile Include="HBL.cs" />
+    <Compile Include="BL\Costumer.cs" />
+    <Compile Include="BL\mUser.cs" />
+    <Compile Include="BL\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
